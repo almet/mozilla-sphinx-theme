@@ -11,7 +11,10 @@
   <div class="documentwrapper">
     {# Only include the global TOC #}
     <div class="sphinxsidebar">
-        <nav>{% include "globaltoc.html" %}</nav>
+        <nav>
+        <h2><a href="{{ pathto(master_doc) }}">{{ project }}</a></h2>
+{{ toctree() }}
+        </nav>
     </div>
     <div class="bodywrapper">
       <div class="body">
