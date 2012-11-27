@@ -112,7 +112,7 @@ div.sphinxsidebar:hover,
 }
 .sphinxsidebar nav ul li li {
 }
-.sphinxsidebar nav ul li.current {
+.sphinxsidebar nav ul li.current, .sphinxsidebar nav ul li:hover {
   display: block;
   background: rgba(255, 255, 255, 0.5);
 }
