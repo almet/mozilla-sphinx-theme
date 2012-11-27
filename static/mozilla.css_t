@@ -98,7 +98,7 @@ div.sphinxsidebar:hover,
 .sphinxsidebar nav {
   font-family: 'OpenSansLight', sans-serif;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   margin: auto;
   margin-top: 120px;
   margin-right: 20px;
