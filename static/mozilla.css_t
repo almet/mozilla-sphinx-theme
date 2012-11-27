@@ -37,6 +37,7 @@ body {
 }
 
 div.document{
+  border-top: 1px white solid;
   background: url("images/bg-gradient-sand.png") repeat-x scroll 0px 0px;
 }
 
