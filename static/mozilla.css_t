@@ -56,10 +56,11 @@ hr {
 }
 
 div.body {
-    background-color: #f7f6f3;
+    background-color: #fff;
     color: #3E4349;
     padding: 0 30px 30px 30px;
     font-size: 0.9em;
+    border-left: 1px solid rgba(0,0,0,0.2);
 }
 
 div.sphinxsidebar {
@@ -134,7 +135,7 @@ div.sphinxsidebar:hover,
 .sphinxsidebar nav b {
   display: block;
   padding: 10px 25px 10px 15px;
-  color: #333333;
+  color: #000;
   background-repeat: no-repeat;
   background-position: 100% 50%;
 }
