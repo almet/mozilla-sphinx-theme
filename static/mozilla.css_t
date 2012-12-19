@@ -66,25 +66,11 @@ div.body {
 div.sphinxsidebar {
   float: left;
   margin-left: 0px;
-  opacity: 0.5;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  opacity: 1;
   float: left;
   margin: 0 10px;
   margin-left: 20px;
   margin-bottom: 20px;
-}
-div.sphinxsidebar:hover,
-.sphinxsidebar.child-focus {
-  opacity: 1;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
 }
 .sphinxsidebar h2 {
   text-align: center;
@@ -284,6 +270,7 @@ p.admonition-title:after {
 }
 
 pre{
+    background-color: rgb(240, 240, 240);
     font-size: 1.1em;
     padding: 10px;
     margin: 10px;
