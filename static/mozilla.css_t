@@ -8,7 +8,7 @@
  * :license: BSD
  */
 
-@import url("http://www.mozilla.org/tabzilla/media/css/tabzilla.css");
+@import url("https://www.mozilla.org/tabzilla/media/css/tabzilla.css");
 @import url("basic.css");
 
 @font-face {
