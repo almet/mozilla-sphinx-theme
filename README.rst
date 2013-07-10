@@ -4,20 +4,19 @@ Mozilla sphinx's theme
 This is a version of Mozilla's sandstone theme, for `the Sphinx documentation
 engine. <http://sphinx.pocoo.org>`_.
 
-Here is how I use it
-====================
+Okay, how do I install it?
+==========================
 
-To use it, you need to clone it somewhere in your Sphinx's architecture::
+You need to install it locally and configure Sphinx to use it. In your `conf.py` file::
 
-    $ cd docs/source && mkdir _themes
-    $ git clone https://github.com/ametaireau/mozilla-sphinx-theme.git _themes/mozilla
+    import mozilla_sphinx_theme                                       
+    import os                                                         
+                                                                      
+    html_theme_path = [os.path.dirname(mozilla_sphinx_theme.__file__)]
+                                                                      
+    html_theme = 'mozilla'                                            
 
-and to configure Sphinx to use it. In your `conf.py` file::
+Also, take care and remove the `pygments_style` configuration, as it may not be
+of the better taste with the mozilla's theme.
 
-    html_theme_path = ['_themes']
-    html_theme = 'mozilla'
-
-Take care and remove the `pygments_style` configuration, as it may not be of
-the better taste with the mozilla's theme.
-
-Any contributions are of course welcome!
+Enjoy!
