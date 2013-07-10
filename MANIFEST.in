@@ -1,0 +1,1 @@
+recursive-include mozilla_sphinx_theme *.css_t *.html *.conf *.ttf *.png
