@@ -7,7 +7,7 @@ setup(
     zip_safe=False,
     install_requires=["sphinx>=1.1"],
     name="mozilla-sphinx-theme",
-    version=0.1,
+    version=0.2,
     author="Alexis Metaireau",
     author_email="alexis@notmyidea.org",
     description="A theme using the default mozilla design guidelines",
